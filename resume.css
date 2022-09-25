@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+	padding: 0;
+}
+li{
+    list-style: none;
+}
+.head{
+    background-color: #555;
+}
+.head h1{
+   color: #fff;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.img img{
+    border-radius: 50%;
+}
+.link{
+    text-align: center;
+}
+.second{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.left{
+    width: 70%;
+}
+.right{
+    width: 30%;
+}
+.skill{
+    margin: 0px 60px;
+}
+
+.skill p{
+    margin-left: 28px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.skill ul{
+    font-size: 18px;
+}
