@@ -35,10 +35,12 @@ li{
 }
 .right{
     width: 30%;
+    display: flex;
+    justify-content: center;
 }
 .skill{
+    
     width: 150px;
-    padding-left: 80px;
 }
 
 .skill p{
@@ -51,4 +53,10 @@ li{
 }
 .skill h2{
     text-align: center;
+}
+
+@media(max-width:600px){
+    .second{
+        display: flex;
+    }
 }
