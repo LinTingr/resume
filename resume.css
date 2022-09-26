@@ -39,7 +39,6 @@ li{
     justify-content: center;
 }
 .skill{
-    
     width: 150px;
 }
 
@@ -52,11 +51,22 @@ li{
     font-size: 18px;
 }
 .skill h2{
-    text-align: center;
+    text-align: start;
 }
 
 @media(max-width:600px){
     .second{
-        display: flex;
+        display: block;
     }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+        justify-content: start;
+    }
+    .skill{
+        width: 100%;
+    }
+
 }
