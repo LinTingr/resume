@@ -37,7 +37,8 @@ li{
     width: 30%;
 }
 .skill{
-    margin: 0px 60px;
+    width: 150px;
+    padding-left: 80px;
 }
 
 .skill p{
@@ -47,4 +48,7 @@ li{
 }
 .skill ul{
     font-size: 18px;
+}
+.skill h2{
+    text-align: center;
 }
